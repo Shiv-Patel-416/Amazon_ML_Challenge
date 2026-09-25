@@ -1,0 +1,24 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Dataset files (exceeds GitHub 100MB limit)
+dataset/
+*.tsv
+*.csv
+*.zip
+*.tar.gz
+
+# Exception for output files if needed
+!output/*.tsv
+
+# IDE and System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
